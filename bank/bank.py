@@ -8,3 +8,6 @@ def greeting():
         else:
             return "$100"
 
+print(greeting)
+
+
