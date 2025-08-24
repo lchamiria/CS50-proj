@@ -8,6 +8,6 @@ def greetings():
         else:
             print("$100")
 
-print(greetings)
+greetings()
 
 
