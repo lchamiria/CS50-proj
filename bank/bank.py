@@ -1,4 +1,5 @@
 greeting = input("greeting: ").title()
+greeting = greeting.count(greeting)
 def greetings():
     for char in greeting:
         if greeting.startswith("Hello"):
