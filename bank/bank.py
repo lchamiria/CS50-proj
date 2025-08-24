@@ -1,13 +1,13 @@
 greeting = input("greeting: ")
-def greeting():
+def greetings():
     for char in greeting:
         if greeting.startswith("Hello"):
-            return "$0"
+            print("$0")
         elif greeting.startswith("H"):
-            return "$20"
+            print("$20")
         else:
-            return "$100"
+            print("$100")
 
-print(greeting)
+print(greetings)
 
 
