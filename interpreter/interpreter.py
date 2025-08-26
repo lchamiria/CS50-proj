@@ -5,4 +5,4 @@ z = str("z")
 x,y,z = expression.split(" ")
 expression = float(x,y,z)
 
-print(expression)
+print({expression})
