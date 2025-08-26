@@ -9,4 +9,4 @@ match y:
     case "-":
         print(f"{x-z}")
     case "+":
-        print(f"{x+z:.1f}")
+        print(x+z)
