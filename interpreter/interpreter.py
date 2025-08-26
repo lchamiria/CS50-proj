@@ -1,4 +1,5 @@
-x,y,z = input("Expression: ").split()
+x,y,z = input("Expression: ")
+x,y,z = x,y,z.split()
 x = int(x)
 z = int(z)
 
