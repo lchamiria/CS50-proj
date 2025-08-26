@@ -4,7 +4,7 @@ if file_name.endswith(".gif"):
     print("image/gif")
 
 elif file_name.endswith(".jpg"):
-    print("image/jpg")
+    print("image/jpeg")
 
 elif file_name.endswith(".jpeg"):
     print("image/jpeg")
