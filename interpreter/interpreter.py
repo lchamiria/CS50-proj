@@ -5,4 +5,4 @@ y = ["+","-","*","/"]
 z = str("expression")
 expression = float(x,y,z)
 
-print(expression)
+print(x,y,z)
