@@ -1,4 +1,5 @@
-x,y,z = input("Expression: ").split()
+expression = input("Expression: ")
+x,y,z = expression.split()
 x = int(x)
 z = int(z)
 match y:
