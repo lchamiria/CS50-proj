@@ -16,7 +16,7 @@ elif file_name.endswith(".pdf"):
     print("application/pdf")
 
 elif file_name.endswith(".txt"):
-    print("image/txt")
+    print("text/plain")
 
 elif file_name.endswith(".zip"):
     print("image/zip")
