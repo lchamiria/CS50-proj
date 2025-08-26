@@ -3,13 +3,13 @@ x = int(x)
 z = int(z)
 for y in x,y,z:
     if y == "+":
-        print(x+z)
+        return(x+z)
     elif y == "-":
-        print(x-z)
+        return(x-z)
     elif y == "*":
-        print(x*z)
+        return(x*z)
     elif y == "-":
-        print(x/z)
+        return(x/z)
     else:
         break
 
