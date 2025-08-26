@@ -1,4 +1,4 @@
-greeting = input("greeting: ").title()
+greeting = input("greeting: ").title().append()
 def greetings():
     for char in greeting:
         if greeting.startswith("Hello"):
