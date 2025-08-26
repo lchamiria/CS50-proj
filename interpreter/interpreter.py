@@ -3,10 +3,10 @@ x = int(x)
 z = int(z)
 match y:
     case "/":
-        print(f"{x/z}")
+        print(f"{x/z:.1f}")
     case "*":
-        print(f"{x*z}")
+        print(f"{x*z:.1f}")
     case "-":
-        print(f"{x-z: .1f}")
+        print(f"{x-z:.1f}")
     case "+":
-        print(x+z)
+        print(f"{x+z:.1f}")
