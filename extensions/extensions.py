@@ -3,7 +3,7 @@ file_name = input("File name: ").lower()
 if file_name.endswith(".gif"):
     print("image/gif")
 
-elif file_name.endswith(.jpg):
+elif file_name.endswith(".jpg"):
     print("image/jpg")
 
 elif file_name.endswith(".jpeg"):
