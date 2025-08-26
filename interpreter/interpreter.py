@@ -1,8 +1,8 @@
 expression = input("Expression: ")
-x = str("x")
+x = str("expression")
 y = "-", "+", "*", "/"
-z = str("z")
+z = str("expression")
 x,y,z = expression.split(" ")
 expression = float(x,y,z)
 
-print({expression})
+print(expression)
