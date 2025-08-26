@@ -13,7 +13,7 @@ elif file_name.endswith(".png"):
     print("image/png")
 
 elif file_name.endswith(".pdf"):
-    print("image/pdf")
+    print("application/pdf")
 
 elif file_name.endswith(".txt"):
     print("image/txt")
