@@ -7,6 +7,6 @@ match y:
     case "*":
         print(f"{x*z}")
     case "-":
-        print(f"{x-z}")
+        print(f"{x-z: .1f}")
     case "+":
         print(x+z)
