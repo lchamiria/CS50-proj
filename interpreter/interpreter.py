@@ -4,4 +4,8 @@ z = float(z)
 if y == "+":
     print(x+z)
 elif y == "-":
-    print(x-)
+    print(x-z)
+elif y == "-":
+    print(x-z)
+elif y == "-":
+    print(x-z)
