@@ -3,4 +3,6 @@ x,y,z = expression.split(" ")
 x = str(x)
 y = "-", "+", "*", "/"
 z = str(z)
-expression = 
+expression = float(x,y,z)
+
+print(expression)
