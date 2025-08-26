@@ -1,2 +1,2 @@
-user_input = input("Expression: ")
-x,y,z = 
+expression = input("Expression: ")
+x,y,z = expression.split(" ")
