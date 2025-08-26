@@ -1,8 +1,7 @@
-x,y,z = input("Expression: ")
-x, y, z = x,y,z.split(" ")
-x = str("expression")
+user_input= input("Expression: ")
+x, y, z = user_input.split(" ")
+x = str("user_input")
 y = ["+","-","*","/"]
-z = str("expression")
-expression = float(x,y,z)
+z = str("user_input")
 
 print(x,y,z)
