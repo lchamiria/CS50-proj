@@ -1,6 +1,6 @@
 x,y,z = input("Expression: ")
-x = int(x)
-z = int(z)
+x = float(int(x))
+z = float(int(z))
 
 match y:
     case "/":
@@ -10,4 +10,4 @@ match y:
     case "-":
         print(x-z)
     case "+":
-        print(float(x+z))
+        print(x+z)
