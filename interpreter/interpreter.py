@@ -3,10 +3,10 @@ x = int(x)
 z = int(z)
 match y:
     case "-":
-        print(x-z)
+        print(float(x-z))
     case "+":
-        print(x+z)
+        print(float(x+z))
     case "*":
-        print(x*z)
+        print(float(x*z))
     case "/":
-        print(x/z)
+        print(float(x/z))
