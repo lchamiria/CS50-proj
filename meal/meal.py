@@ -7,7 +7,8 @@ def convert(time):
         print("breakfast time")
     elif time >= 12 and time <= 13:
         print("lunch time")
-    elif time >= 
+    elif time >= 18 and time <= 19:
+        print("dinner time")
 
 
 
